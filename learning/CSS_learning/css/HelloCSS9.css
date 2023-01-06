@@ -1,0 +1,9 @@
+h1 {
+    font-size: 80px;
+    color: red
+}
+
+body {
+    background-color: rgb(255, 150, 100);
+    font-family: "Times New Roman", "DFKai-SB", Times, serif;
+}

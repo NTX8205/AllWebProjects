@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <title>留言板</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
+            aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><h2>留言板</h2></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="messageInput container mb-3">
+        <form action="">
+            <div class="form-group">
+                <label for="inputTitle">標題</label>
+                <input type="text" class="form-control" id="inputTitle" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="content">內容</label>
+                <textarea class="form-control" id="content" name="content" rows="3" required></textarea>
+            </div>
+            <button type="button" class="btn btn-outline-primary btn-block mb-3" id="submit">送出</button>
+        </form>
+    </div>
+
+    <div class="messages" id="messages"></div>
+
+    <div class="message container mb-3" id="test">
+        <h3 id="floor">#1</h3>
+        <h5 class="text-center showTitle">title</h5>
+        <p class="showContent">content</p>
+        <div class="btn-group d-flex justify-content-center mb-3" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-outline-warning">編輯</button>
+            <button type="button" class="btn btn-outline-danger">刪除</button>
+        </div>
+    </div>
+</body>
+</html>

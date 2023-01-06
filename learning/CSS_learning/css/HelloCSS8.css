@@ -1,0 +1,17 @@
+h1 {
+    font-size: 80px;
+    color: red
+}
+
+p.px {
+    font-size: 50px;
+}
+
+p.vw {
+    font-size: 10vw;
+}
+
+body {
+    background-color: lightgreen;
+    font-family: "Times New Roman", "DFKai-SB", Times, serif;
+}

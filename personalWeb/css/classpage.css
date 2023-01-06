@@ -1,0 +1,31 @@
+﻿.title{
+    text-indent:3px;
+    color: orange;
+    height: 0.8cm;
+    
+}
+
+.logo{
+    width: 50px;
+}
+
+.d-block{
+    height: 650px; 
+    width: 100%;
+}
+
+
+.mainword{
+    font-family: 標楷體;
+    text-align: center;
+}
+
+.name1{
+    color: rgb(23, 108, 119);
+}
+
+.col-6{
+    text-align: center;
+    font-size: larger;
+    border: 1px solid black;
+}

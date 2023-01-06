@@ -1,0 +1,20 @@
+body {
+    background-color:#918a8a;
+}
+.login {
+    box-shadow: 8px 8px #5c5858;
+    background-color:white;
+    margin: auto;
+    width:50%;
+    height: 50%;
+    margin-top: 10rem;
+    border: 2px solid;
+    border-color: #22b8e6;
+    border-radius:10px;
+    line-height: 2cm;
+    text-indent: 5px;
+    margin-bottom: 5rem;
+}
+.title {
+    text-align: center;
+}

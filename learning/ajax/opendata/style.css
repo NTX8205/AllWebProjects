@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Rubik+80s+Fade&display=swap');
+
+/* Start https://www.cursors-4u.com */
+* {
+    cursor: url(https://ani.cursors-4u.net/symbols/sym-9/sym824.ani), url(https://ani.cursors-4u.net/symbols/sym-9/sym824.png), auto !important;
+}
+
+/* End https://www.cursors-4u.com */
+
+div h1 {
+    font-family: 'Rubik 80s Fade', cursive;
+    font-size: 80px;
+    color: red;
+}
+
+div h2 {
+    font-family: 'Rubik 80s Fade', cursive;
+}
+
+div>p {
+    font-family: 'Noto Sans TC', sans-serif;
+}

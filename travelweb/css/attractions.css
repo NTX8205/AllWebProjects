@@ -1,0 +1,48 @@
+nav {
+    background-color: rgb(167, 231, 233);
+}
+
+
+
+.onPage {
+    border: 2px rgb(69, 137, 139) solid;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    cursor: pointer;
+    background: rgb(119, 209, 212);
+}
+
+table {
+    border: 0;
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+    overflow-y: overlay;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+}
+
+h1.place {
+    font-size: 1.7cm;
+    text-align: center;
+}
+
+.view {
+    text-align: center;
+    width: 700px;
+    height: 500px;
+}
+
+.view1 {
+    width: 400px;
+    width: 280px;
+}
+
+.view2 {
+    text-align: center;
+    width: 500px;
+    height: 600px;
+}

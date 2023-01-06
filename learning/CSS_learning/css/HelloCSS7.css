@@ -1,0 +1,17 @@
+h1 {
+    font-size: 80px;
+    color: red
+}
+
+p.normal {
+    font-variant: normal;
+}
+
+p.small {
+    font-variant: small-caps;
+}
+
+body {
+    background-color: lightgreen;
+    font-family: "Times New Roman", "DFKai-SB", Times, serif;
+}

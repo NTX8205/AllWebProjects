@@ -1,0 +1,48 @@
+body {
+    background-color: hotpink;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.flex {
+    display: flex;
+    height: 300px;
+    padding: 15px;
+    background-color: #61a0f8;
+}
+
+.item {
+    flex: 1;
+    background-color: lightgreen;
+    margin-left: 15px;
+
+}
+
+
+.flex-3 {
+    flex: 2 3;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    background-color: lightyellow;
+}
+
+.flex-2 {
+    flex-grow: 2;
+    flex-shrink: 3;
+    flex-basis: 0%;
+    background-color: pink;
+}

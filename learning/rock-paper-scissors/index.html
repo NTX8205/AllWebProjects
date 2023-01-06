@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <title>剪刀石頭布</title>
+</head>
+<body>
+    <div class=" container-fluid">
+        <h1 class="text-center text-primary">
+            <b>剪刀石頭布</b>
+        </h1>
+        <div class="row">
+
+            <div class="col-4 user badge-success" id="user">
+                <h3 class="text-center">使用者</h3>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="剪刀.jpg" class="mx-auto d-block" id="scissors" alt="剪刀">
+                    </div>
+                    <div class="col-4">
+                        <img src="石頭.jpg" class="mx-auto d-block" id="stone" alt="石頭">
+                    </div>
+                    <div class="col-4">
+                        <img src="布.jpg" class="mx-auto d-block" id="paper" alt="布">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 result badge-warning" id="result">
+                <h3 class="text-center">結果</h3>
+                <div class="row">
+                    <div class="col-6">
+                        <h4 class="text-primary font-weight-bold text-center">使用者</h4>
+                    </div>
+                    <div class="col-6">
+                        <h4 class="text-danger font-weight-bold text-center">電腦</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="showUserChoice"></div>
+                    <div class="col-6" id="showComputerChoice"></div>
+                </div>
+                <h1 class="text-center font-weight-bold" id="showResult"></h1>
+                <div class="row text-center font-weight-bold">
+                    <div class="col-4 text-primary">
+                        <p>勝利次數</p>
+                        <p id="win">0</p>
+                    </div>
+                    <div class="col-4 text-danger">
+                        <p>敗北次數</p>
+                        <p id="lose">0</p>
+                    </div>
+                    <div class="col-4">
+                        <p>平手次數</p>
+                        <p id="tie">0</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 computer badge-danger" id="computer">
+                <h3 class="text-center">電腦</h3>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="剪刀.jpg" class="mx-auto d-block" alt="剪刀">
+                    </div>
+                    <div class="col-4">
+                        <img src="石頭.jpg" class="mx-auto d-block" alt="石頭">
+                    </div>
+                    <div class="col-4">
+                        <img src="布.jpg" class="mx-auto d-block" alt="布">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

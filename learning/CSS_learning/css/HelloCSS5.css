@@ -1,0 +1,25 @@
+h1 {
+    font-size: 80px;
+    color: red
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p.normal {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.oblique {
+    font-style: oblique;
+}
+
+body {
+    background-color: lightgreen;
+    font-family: "Times New Roman", "DFKai-SB", Times, serif;
+}

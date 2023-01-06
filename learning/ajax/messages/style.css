@@ -1,0 +1,21 @@
+.messageInput {
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(15, 175, 238);
+}
+
+.message {
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #fdca1c;
+}
+
+.showTitle {
+    word-break: break-all;
+}
+
+.showContent {
+    word-break: break-all;
+}

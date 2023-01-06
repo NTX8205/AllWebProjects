@@ -1,0 +1,68 @@
+nav {
+    background-color: rgb(40, 64, 143);
+}
+
+
+.onPage {
+    border: 2px rgb(13, 19, 46) solid;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    cursor: pointer;
+    background: rgb(25, 38, 90);
+}
+
+input:hover {
+    color: #ffffff;
+    border: 2px rgb(13, 19, 46) solid;
+    background: rgb(25, 38, 90);
+}
+
+.bg img {
+    min-height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+h2 {
+    text-align: left;
+    color: #eee;
+}
+
+p {
+    font-size: 20px;
+    color: #eee;
+}
+
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+}
+
+.bg img {
+    min-height: 100%;
+    width: 100%;
+}
+
+table {
+    border: 0px;
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+}
+
+img {
+    text-align: right;
+    height: 500px;
+    width: 700px;
+}
+
+.map {
+    height: 230px;
+    width: 500px;
+    border: 0;
+}

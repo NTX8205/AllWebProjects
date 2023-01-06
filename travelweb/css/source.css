@@ -1,0 +1,21 @@
+nav {
+    background-color: rgb(167, 231, 233);
+}
+
+.onPage {
+    border: 2px rgb(69, 137, 139) solid;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    cursor: pointer;
+    background: rgb(119, 209, 212);
+}
+
+.row {
+    line-height: 2cm;
+    text-align: center;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+}

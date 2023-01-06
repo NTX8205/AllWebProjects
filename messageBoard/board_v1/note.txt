@@ -1,0 +1,2 @@
+<button type="button" class="btn btn-outline-warning" id="edit" name="method" value="edit" data-bs-toggle="modal" data-bs-target="#editmes">編輯</button>
+                                        <input type="hidden" id="edtid" name="id" value="' . $row["id"] . '">

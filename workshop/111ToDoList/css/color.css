@@ -1,0 +1,7 @@
+body {
+    background-image: url(../picture/background.png); /*設置背景圖*/
+    background-repeat: no-repeat;/*背景圖的重複方式*/
+    background-attachment: fixed;/*背景圖的位置要固定、隨著包含快滾動*/
+    background-position: center;/*每一個背景圖的初始位置*/
+    background-size: cover;/*設置背景大小*/
+}

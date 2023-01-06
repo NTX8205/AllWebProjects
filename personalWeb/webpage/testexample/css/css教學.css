@@ -1,0 +1,9 @@
+table{
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    margin: auto;
+}
+caption{
+    caption-side: top;
+}

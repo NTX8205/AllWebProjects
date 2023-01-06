@@ -1,0 +1,46 @@
+body {
+    padding-top: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+label {
+    font-size: large;
+    color: white;
+}
+
+.box {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: rgb(144, 93, 196);
+    border-radius: 20px;
+}
+
+.mestitle {
+    color: white;
+}
+
+
+.mes {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: rgb(255, 243, 69);
+    border-radius: 20px;
+    color: white;
+}
+
+.firstname{
+    font-size: 24px;
+}
+.text{
+    font-size: 24px;
+}
+.conname{
+    font-size: 18px;
+}
+.context{
+    font-size: 18px;
+}

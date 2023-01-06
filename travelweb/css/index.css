@@ -1,0 +1,110 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+#container {
+    width: 100vmax;
+    height: auto;
+}
+
+section {
+    height: 100vh;
+    color: #fff;
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background: rgb(167, 231, 233);
+
+}
+
+.img {
+    background-size: 100vmax;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    user-select: none;
+    cursor: default;
+    min-height: 50%;
+    width: 100%;
+}
+
+#img1 {
+    background-image: url(../image/p13.jpg);
+}
+
+#img2 {
+    background-image: url(../image/p16.jpg);
+}
+
+#img3 {
+    background-image: url(../image/p6.jpg);
+}
+
+#img4 {
+    background-image: url(../image/p15.jpg);
+}
+
+#img5 {
+    background-image: url(../image/p3.jpg);
+}
+
+#img6 {
+    background-image: url(../image/p14.jpg);
+}
+
+.gotop {
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    z-index: 999;
+    text-align: center;
+    top: 94%;
+    left: 45%;
+    background-color: rgb(167, 231, 233);
+    border-radius: 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.gotop:hover {
+    color: #ffffff;
+    border: 2px rgb(69, 137, 139) solid;
+    background: rgb(119, 209, 212);
+}
+
+nav {
+    background-color: rgb(167, 231, 233);
+}
+
+li a {
+    display: inline-block;
+}
+
+#last {
+    background: rgb(167, 231, 233);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bs-teal);
+    --bs-btn-border-color: var(--bs-teal);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-teal, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-teal, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-teal-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-teal, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-teal, 20%)};
+}
